@@ -1,0 +1,10 @@
+{
+  "fr" : {
+    "counter": {
+      "0": "Rien",
+      "1": "1 produit",
+      "10": "{count} produits",
+      "11": "trop de produits"
+    }
+  }
+}

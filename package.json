@@ -1,8 +1,19 @@
 {
-  "name": "cours-introduction-test",
+  "name": "formation-tests-js",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:Gregcop1/cours-introduction-test.git",
   "author": "Grégory Copin <gregcop1@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest __unit__/",
+    "test:watch": "jest --watchAll __unit__/"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-optional-chaining": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "jest": "^24.5.0"
+  }
 }
