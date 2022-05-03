@@ -7,12 +7,17 @@
   "license": "MIT",
   "scripts": {
     "test": "jest __unit__/",
-    "test:watch": "jest --watchAll __unit__/"
+    "test:watch": "jest --watchAll __unit__/",
+    "test:e2e": "npx playwright test __e2e__/",
+    "test:e2e:head": "npx playwright test --headed __e2e__/",
+    "test:e2e:debug": "npx playwright test --debug __e2e__/",
+    "test:e2e:gen": "npx playwright codegen"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
+    "@playwright/test": "^1.21.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "babel-jest": "^28.0.3",
