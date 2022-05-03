@@ -1,5 +1,5 @@
-import {translateHelper} from '../translateHelper';
-import translation from '../translation.json';
+import {translateHelper} from '../../helpers/translateHelper';
+import translation from '../../translation.json';
 
 describe('translate function', () => {
 
