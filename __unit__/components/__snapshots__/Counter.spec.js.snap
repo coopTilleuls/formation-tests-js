@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should increment counter on click to increment button (snapshot version) 1`] = `
+<div>
+  <button
+    data-testid="decrement"
+  >
+    -1
+  </button>
+  <span
+    data-testid="counter"
+  >
+    4 produits
+  </span>
+  <button
+    data-testid="increment"
+  >
+    +1
+  </button>
+</div>
+`;
